@@ -59,4 +59,11 @@ public class BankAccount {
                 '}';
     }
 
+    public void deposit(float money) {
+        this.balance += money;
+    }
+
+    public void withdraw(float money) {
+        this.balance -= money;
+    }
 }
